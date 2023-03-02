@@ -1,0 +1,49 @@
+.osnova{
+  width: 530px;
+  margin: 0 auto;
+  background:url("фото/Blue.jpg");
+}
+.content{
+  padding: 20px;
+  width: 490px;
+  display: grid;
+  grid-template-columns: 100px 200px 150px;
+  grid-template-areas: "photo name name"
+                       "photo mail phone"
+                       "skills skills qr";
+  gap:20px;
+}
+.photo{
+  grid-area: photo;
+  justify-self: start;
+}
+.ph{
+  width:100px;
+}
+.name{
+  width: 320px;
+  grid-area:name;
+  align-self: start;
+}
+.mail{
+  grid-area: mail;
+}
+.phone{
+  grid-area: phone;
+}
+.skills{
+  margin: 0 auto;
+  width: 320px;
+  grid-area: skills;
+}
+.qr{
+  grid-area: qr;
+  justify-self: end;
+  align-self: end;
+}
+.texw{
+  color: white;
+}
+h1{
+  margin: 0 auto;
+}

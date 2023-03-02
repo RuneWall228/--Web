@@ -1,0 +1,55 @@
+body{
+  width: 600px;
+  margin: 0 auto;
+}
+.backpink{
+  background-color: #f5eaf0;
+}
+.p-header{
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 70px;
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: 1fr 160px;
+}
+.daylist{
+  padding-top: 25px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 30px;
+}
+.p-footer{
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+h2{
+  margin: 0 auto;
+}
+.pinh2{
+  color: #ce3cad;
+  font-weight:400;
+}
+.fontb{
+  font-weight:700;
+  text-align: center;
+}
+.klien{
+  text-align: center;
+  line-height: 5px;
+  font-style:italic;
+}
+h3{
+  color: #ce3cad;
+  text-align: center;
+}
+.foot{
+  text-align: center;
+  color: white;
+}
