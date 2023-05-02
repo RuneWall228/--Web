@@ -18,5 +18,5 @@ let findIndex = aray.indexOf(lastsIndex);
 if (findIndex == -1) {
   console.log('Элемент не найден');
 } else {
-  console.log('Индекс элемента в отсортированном массиве: ' + foundIndex);
+  console.log('Индекс элемента в отсортированном массиве: ' + findIndex);
 }
