@@ -27,14 +27,6 @@ function TextureTheme(){
     textureButton.classList.add("active");
     html.setAttribute("data-theme-name", "texture");
 }
-let buttons = document.querySelectorAll('.card-view-button');
-
-buttons.forEach(button => {
-  button.addEventListener('click', () => {
-    document.querySelector('.card-view-button.active').classList.remove('active');
-    button.classList.add('active');
-  })
-})
 
 function Cards(){
 {cards.classList.remove('standard','compact');cards.classList.add('tile');}
